@@ -54,7 +54,11 @@
 }
 
 .colorModeContainer {
-  position: relative;
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .colorMode {
