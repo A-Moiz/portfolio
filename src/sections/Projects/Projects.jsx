@@ -2,6 +2,7 @@ import styles from "./ProjectsStyles.module.css";
 import bmiBuddy from "../../assets/bmiBuddy.png";
 import vocabio from "../../assets/vocabio.png";
 import ProjectCard from "../../common/ProjectCard";
+import opbr from "../../assets/opbr-companion.png";
 
 function Projects() {
   return (
@@ -20,6 +21,13 @@ function Projects() {
           link={"https://apps.apple.com/gb/app/vocabio/id6737419951"}
           h3="Vocabio"
           p="Decode Today's Slang"
+        />
+
+        <ProjectCard
+          src={opbr}
+          link={"https://apps.apple.com/gb/app/opbr-companion/id6737994116"}
+          h3="OPBR Companion"
+          p="Game Strategies & Tips Guide"
         />
       </div>
     </section>
