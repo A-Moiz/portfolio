@@ -7,7 +7,7 @@ import linkedinDark from '../../assets/linkedin-dark.svg';
 import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import { useTheme } from '../../common/ThemeContext';
-import CV from '../../assets/cv.pdf';
+import CV from '../../assets/abdul-moiz.pdf';
 
 function Hero() {
     const { theme, toggleTheme } = useTheme();
