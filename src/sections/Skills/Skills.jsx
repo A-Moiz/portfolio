@@ -1,12 +1,13 @@
-import styles from './SkillsStyles.module.css';
-import checkMarkIconDark from '../../assets/checkmark-dark.svg';
-import checkMarkIconLight from '../../assets/checkmark-light.svg';
-import SkillList from '../../common/SkillList';
-import { useTheme } from '../../common/ThemeContext';
+import styles from "./SkillsStyles.module.css";
+import checkMarkIconDark from "../../assets/checkmark-dark.svg";
+import checkMarkIconLight from "../../assets/checkmark-light.svg";
+import SkillList from "../../common/SkillList";
+import { useTheme } from "../../common/ThemeContext";
 
 function Skills() {
   const { theme } = useTheme();
-  const checkMarkIcon = theme === 'light' ? checkMarkIconLight : checkMarkIconDark;
+  const checkMarkIcon =
+    theme === "light" ? checkMarkIconLight : checkMarkIconDark;
 
   return (
     <section id="skills" className={styles.container}>
@@ -17,6 +18,7 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Java" />
         <SkillList src={checkMarkIcon} skill="Python" />
         <SkillList src={checkMarkIcon} skill="Swift/SwiftUI" />
+        <SkillList src={checkMarkIcon} skill="React/TypeScript" />
       </div>
       <hr />
       <div className={styles.skillList}>
@@ -28,7 +30,16 @@ function Skills() {
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Digital Marketing" />
         <SkillList src={checkMarkIcon} skill="Math" />
-        <SkillList src={checkMarkIcon} skill="GitHub" />
+        <SkillList src={checkMarkIcon} skill="Git/GitHub" />
+      </div>
+      <hr />
+      <div className={styles.skillList}>
+        <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
+        <SkillList src={checkMarkIcon} skill="Full-Stack Developer" />
+        <SkillList src={checkMarkIcon} skill="Firebase" />
+        <SkillList src={checkMarkIcon} skill="Supabase" />
+        <SkillList src={checkMarkIcon} skill="CloudKit" />
+        <SkillList src={checkMarkIcon} skill="SQL" />
       </div>
     </section>
   );
