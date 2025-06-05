@@ -3,6 +3,7 @@ import bmiBuddy from "../../assets/bmiBuddy.png";
 import vocabio from "../../assets/vocabio.png";
 import ProjectCard from "../../common/ProjectCard";
 import opbr from "../../assets/opbr-companion.png";
+import listIt from "../../assets/list-it.jpeg";
 
 function Projects() {
   return (
@@ -13,7 +14,7 @@ function Projects() {
           src={bmiBuddy}
           link={"https://apps.apple.com/gb/app/bmi-buddy/id6683310423"}
           h3="BMI Buddy"
-          p='Track & Manage Your BMI Easily'
+          p="Track & Manage Your BMI Easily"
         />
 
         <ProjectCard
@@ -28,6 +29,15 @@ function Projects() {
           link={"https://apps.apple.com/gb/app/opbr-companion/id6737994116"}
           h3="OPBR Companion"
           p="Game Strategies & Tips Guide"
+        />
+
+        <ProjectCard
+          src={listIt}
+          link={
+            "https://apps.apple.com/gb/app/list-it-simple-to-do-list/id6746731233"
+          }
+          h3="List It"
+          p="Simple To Do List"
         />
       </div>
     </section>
