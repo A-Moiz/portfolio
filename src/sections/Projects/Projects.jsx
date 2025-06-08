@@ -3,7 +3,7 @@ import bmiBuddy from "../../assets/bmiBuddy.png";
 import vocabio from "../../assets/vocabio.png";
 import ProjectCard from "../../common/ProjectCard";
 import opbr from "../../assets/opbr-companion.png";
-import listIt from "../../assets/list-it.jpeg";
+import listIt from "../../assets/list-it.png";
 
 function Projects() {
   return (
