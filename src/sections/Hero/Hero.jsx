@@ -7,9 +7,9 @@ import linkedinDark from "../../assets/linkedin-dark.svg";
 import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import { useTheme } from "../../common/ThemeContext";
-import CV from "../../assets/abdul-moiz-cv.pdf";
 import referenceLetter from "../../assets/reference-letter.pdf";
 import awardConfirmation from "../../assets/award-confirmation.pdf";
+import CV from "../../assets/abdul-moiz-cv.pdf";
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
