@@ -19,7 +19,7 @@ function Projects() {
 
         <ProjectCard
           src={vocabio}
-          link={"https://apps.apple.com/gb/app/vocabio/id6737419951"}
+          link={"https://apps.apple.com/gb/app/vocabio/id6757109154"}
           h3="Vocabio"
           p="Decode Today's Slang"
         />
