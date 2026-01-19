@@ -18,13 +18,6 @@ function Projects() {
         />
 
         <ProjectCard
-          src={vocabio}
-          link={"https://apps.apple.com/gb/app/vocabio/id6757109154"}
-          h3="Vocabio"
-          p="Decode Today's Slang"
-        />
-
-        <ProjectCard
           src={opbr}
           link={"https://apps.apple.com/gb/app/opbr-companion/id6737994116"}
           h3="OPBR Companion"
@@ -38,6 +31,13 @@ function Projects() {
           }
           h3="List It"
           p="Simple To Do List"
+        />
+
+        <ProjectCard
+          src={vocabio}
+          link={"https://apps.apple.com/gb/app/vocabio/id6757109154"}
+          h3="Vocabio"
+          p="Decode Today's Slang"
         />
       </div>
     </section>
